@@ -4,7 +4,7 @@
     <Alert v-if="alert" v-bind:message="alert"></Alert>
     <h1 class="page-header">用户管理系统</h1>
 
-    <input type="text" class="form-control" placeholder="搜索 🔍" v-model="filterInput">
+    <input type="text" class="form-control" placeholder="搜索 🔍 " v-model="filterInput">
     <br>
  
     <table class="table table-striped">

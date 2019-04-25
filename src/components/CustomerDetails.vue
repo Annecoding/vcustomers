@@ -12,15 +12,15 @@
         </span>
     </h1>
     <ul class="list-group">
-        <li class="list-group-item"><span class="glyphicon glyphicon-phone-alt"> {{customer.phone}}</span></li>
-        <li class="list-group-item"><span class="glyphicon glyphicon-envelope"> {{customer.email}}</span></li>
+        <li class="list-group-item"><span class="glyphicon glyphicon-phone-alt"> 电话：{{customer.phone}}</span></li>
+        <li class="list-group-item"><span class="glyphicon glyphicon-envelope"> 邮箱：{{customer.email}}</span></li>
     </ul>
 
     <ul class="list-group">
-        <li class="list-group-item"><span class="glyphicon glyphicon-asterisk"> {{customer.education}}</span></li>
-        <li class="list-group-item"><span class="glyphicon glyphicon-plus"> {{customer.graduationschool}}</span></li>
-        <li class="list-group-item"><span class="glyphicon glyphicon-asterisk"> {{customer.profession}}</span></li>
-        <li class="list-group-item"><span class="glyphicon glyphicon-plus"> {{customer.profile}}</span></li>
+        <li class="list-group-item"><span class="glyphicon glyphicon-asterisk"> 学&nbsp;&nbsp;历：{{customer.education}}</span></li>
+        <li class="list-group-item"><span class="glyphicon glyphicon-plus"> 毕业学校：{{customer.graduationschool}}</span></li>
+        <li class="list-group-item"><span class="glyphicon glyphicon-asterisk"> 职&nbsp;&nbsp;业：{{customer.profession}}</span></li>
+        <li class="list-group-item"><span class="glyphicon glyphicon-plus"> 个人简介：{{customer.profile}}</span></li>
     </ul>
   </div>
 </template>
